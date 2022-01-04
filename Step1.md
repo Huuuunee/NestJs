@@ -13,7 +13,7 @@ $ nest new project-name
 
 # 대안
 
-또는 Git으로 TypesScript 시작 프로젝트를 설치하려면 아래 명령어로 설치할 수 있습니다.
+>또는 Git으로 TypesScript 시작 프로젝트를 설치하려면 아래 명령어로 설치할 수 있습니다.
 
 ```
 $ git clone https://github.com/nestjs/typescript-starter.git project
@@ -22,9 +22,9 @@ $ npm install
 $ npm run start
 ```
 
-브라우저를 열고 : <http://localhost:3000/>로 이동하면 됩니다.
+>브라우저를 열고 : <http://localhost:3000/>로 이동하면 됩니다.
 
-npm(또는 yarn)으로 코어 및 지원파일을 설치하여 처음부터 새 프로젝트를 수동으로 만들 수도 있습니다. 물론 이 경우에는 프로젝트 상용구 파일을 직접 생성해야합니다.
+#### npm(또는 yarn)으로 코어 및 지원파일을 설치하여 처음부터 새 프로젝트를 수동으로 만들 수도 있습니다. 물론 이 경우에는 프로젝트 상용구 파일을 직접 생성해야합니다.
 
 ```
 $ npm i --save @nestjs/core @nestjs/common rxjs reflect-metadata
